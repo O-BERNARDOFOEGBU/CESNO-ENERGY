@@ -1,7 +1,30 @@
 // import { SERVICE_ID, TEMPLATE_ID } from "../js/keys";
 
 // export const sendMail = () => {
+
+const validateInputs = () => {
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const subject = document.getElementById("subject").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  return name !== "" && email !== "" && subject !== "" && message !== "";
+};
+
+const toggleSendButton = () => {
+  const sendBtn = document.getElementById("sendBtn");
+  sendBtn.disabled = !validateInputs();
+};
+
 const sendMail = () => {
+  if (!validateInputs()) {
+    return; // Prevent sending mail if inputs are not valid
+  }
+
+  // Your existing sendMail function code here
+  // };
+
+  // const sendMail = () => {
   var params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
