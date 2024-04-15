@@ -35,7 +35,7 @@ const sendMail = () => {
   // const serviceID = "service_vifytjq";
   // const templateID = "template_nbzwh1g";
   const serviceID = "service_xdajtgt";
-  const templateID = "service_xdajtgt";
+  const templateID = "template_r526rm6";
   // const serviceID = SERVICE_ID;
   // const templateID = TEMPLATE_ID;
 
