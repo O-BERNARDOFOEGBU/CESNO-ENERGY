@@ -95,6 +95,7 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  width: 160px;
 }
 
 /*--------------------------------------------------------------
@@ -1273,6 +1274,11 @@ section {
   color: #444444;
   font-size: 14px;
   background: #f7fbfe;
+}
+
+#footer .logo img {
+  max-height: 40px;
+  width: 160px;
 }
 
 #footer .footer-top {
